@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dog game</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!--Get your own code at fontawesome.com-->
+<script type="text/javascript" src="app.js">
+
+</script>
+<link rel="stylesheet" href="app.css">
+<style media="screen">
+  td{
+    width: 20px;
+  }
+
+</style>
+
+
+</head>
+<body onkeydown="getmykey(event)" onkeyup="check(event)">
+<div class="game">
+<i class="fas fa-dog" id="image1" style="font-size:20px;"></i>
+<table id="board" style="position:fixed; width:200px;" cellspacing="20px;">
+  <tr>
+    <td id="t00"></td>
+    <td id="t01"></td>
+    <td id="t02"></td>
+    <td id="t03"></td>
+    <td id="t04"></td>
+    <td id="t05"></td>
+    <td id="t06"></td>
+    <td id="t07"></td>
+    <td id="t08"></td>
+  </tr>
+  <tr>
+    <td id="t10"></td>
+    <td id="t11"></td>
+    <td id="t12"></td>
+    <td id="t13"></td>
+    <td id="t14"></td>
+    <td id="t15"></td>
+    <td id="t16"></td>
+    <td id="t17"></td>
+    <td id="t18"></td>
+  </tr>
+  <tr>
+    <td id="t20"></td>
+    <td id="t21"></td>
+    <td id="t22"></td>
+    <td id="t23"></td>
+    <td id="t24"></td>
+    <td id="t25"></td>
+    <td id="t26"></td>
+    <td id="t27"></td>
+    <td id="t28"></td>
+  </tr>
+  <tr>
+    <td id="t30"></td>
+    <td id="t31"></td>
+    <td id="t32"></td>
+    <td id="t33"></td>
+    <td id="t34"></td>
+    <td id="t35"></td>
+    <td id="t36"></td>
+    <td id="t37"></td>
+    <td id="t38"></td>
+  </tr>
+  <tr>
+    <td id="t40"></td>
+    <td id="t41"></td>
+    <td id="t42"></td>
+    <td id="t43"></td>
+    <td id="t44"></td>
+    <td id="t45"></td>
+    <td id="t46"></td>
+    <td id="t47"></td>
+    <td id="t48"></td>
+  </tr>
+  <tr>
+    <td id="t50"></td>
+    <td id="t51"></td>
+    <td id="t52"></td>
+    <td id="t53"></td>
+    <td id="t54"></td>
+    <td id="t55"></td>
+    <td id="t56"></td>
+    <td id="t57"></td>
+    <td id="t58"></td>
+  </tr>
+  <tr>
+    <td id="t60"></td>
+    <td id="t61"></td>
+    <td id="t62"></td>
+    <td id="t63"></td>
+    <td id="t64"></td>
+    <td id="t65"></td>
+    <td id="t66"></td>
+    <td id="t67"></td>
+    <td id="t68"></td>
+  </tr>
+  <tr>
+    <td id="t70"></td>
+    <td id="t71"></td>
+    <td id="t72"></td>
+    <td id="t73"></td>
+    <td id="t74"></td>
+    <td id="t75"></td>
+    <td id="t76"></td>
+    <td id="t77"></td>
+    <td id="t78"></td>
+  </tr>
+  <tr>
+    <td id="t80"></td>
+    <td id="t81"></td>
+    <td id="t82"></td>
+    <td id="t83"></td>
+    <td id="t84"></td>
+    <td id="t85"></td>
+    <td id="t86"></td>
+    <td id="t87"></td>
+    <td id="t88"></td>
+  </tr>
+</table>
+
+<br>
+<p id="min" style="margin-top:600px;"></p>
+</div>
+</body>
+</html>
